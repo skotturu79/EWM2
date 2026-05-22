@@ -1,0 +1,6 @@
+{
+  "name": "SAP Fiori EWM",
+  "description": "An interactive SAP Fiori Horizon-styled warehousing application illustrating Dock Door Status, Loading operations, and Inventory levels in real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
