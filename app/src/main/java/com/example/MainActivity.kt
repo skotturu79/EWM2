@@ -140,7 +140,7 @@ fun EwmWarehouseDashboard(
                             )
                             Row(verticalAlignment = Alignment.CenterVertically) {
                                 Text(
-                                    text = "EWM Central â¢ Dallas South",
+                                    text = "EWM Central • Dallas South",
                                     style = MaterialTheme.typography.titleMedium,
                                     fontWeight = FontWeight.Black,
                                     color = MaterialTheme.colorScheme.onSurface
@@ -1064,7 +1064,7 @@ fun DockDoorRow(
                     )
                     if (door.carrier.isNotBlank()) {
                         Text(
-                            text = "${door.carrier} â¢ ${door.licensePlate}",
+                            text = "${door.carrier} • ${door.licensePlate}",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.secondary,
                             maxLines = 1,
@@ -1206,7 +1206,7 @@ fun DockDoorDetailsCard(
                             DetailItemKeyVal("Time Arrived", door.arrivalTime.ifBlank { "Just Now" })
                             DetailItemKeyVal(
                                 "Cold Chain Profile",
-                                if (door.temperatureControl) "Refrigerated (${door.temperatureF}Â°F)" else "Ambient Cargo"
+                                if (door.temperatureControl) "Refrigerated (${door.temperatureF}°F)" else "Ambient Cargo"
                             )
                         }
 
